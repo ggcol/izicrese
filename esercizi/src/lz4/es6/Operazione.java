@@ -1,6 +1,6 @@
 package lz4.es6;
 
-public class Operazione {
+public class Operazione implements Calc {
 	
 	private int operando1; 
 	private int operando2;

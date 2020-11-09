@@ -7,6 +7,20 @@
 
 package lz4.es6;
 
-public class Main_lz4e6 {
+public class Main_lz4e6 extends Printer {
+	
+	public static void main (String[] args) {
+		
+		int a = 2;
+		int b = 3;
+		
+		Operazione o = new Operazione(a, b);
+		
+		stampa(o.somma(o));
+		stampa(o.sottrazione(o));
+		stampa(o.moltiplicazione(o));
+		stampa(o.divisione(o));
+		
+	}
 
 }
