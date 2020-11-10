@@ -76,5 +76,9 @@ public class Persona {
 		}
 		return c;
 	}
+	
+	public String toString () {
+		return "Nome: "+this.nome+" Cognome: "+this.cognome+" E-mail: "+this.email;
+	}
 
 }
