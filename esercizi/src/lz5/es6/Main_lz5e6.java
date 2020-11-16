@@ -16,7 +16,7 @@ public class Main_lz5e6 {
 		try {
 			for (int i = 1; i < container.length; i++) {
 //				if (i == 5) {
-//					container[i] = 2;
+//					container[i] = 2;  /* it's a traaaaap*/
 //				} else {
 				container[i] = i;
 //				}
